@@ -11,4 +11,5 @@ display-messages = true
 [keys.insert]
 C-c = "normal_mode"
 [keys.select]
-q = "normal_mode"
+C-c = "normal_mode"
+"C-ret" = "toggle_comments"
