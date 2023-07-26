@@ -8,7 +8,7 @@ gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
 display-inlay-hints = true
 display-messages = true
 
-[keys.insert.j]
-k = "normal_mode"
-[keys.select.j]
-k = "normal_mode"
+[keys.insert]
+C-c = "normal_mode"
+[keys.select]
+q = "normal_mode"
