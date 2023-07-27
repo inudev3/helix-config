@@ -1,4 +1,4 @@
-theme="ayu_mirage"
+theme="ayu_dark"
 [editor.lsp]
 display-inlay-hints = true
 display-messages = true
@@ -8,7 +8,8 @@ C-c = "normal_mode"
 [keys.select]
 C-c = "normal_mode"
 "C-ret" = "toggle_comments"
-
+[keys.normal]
+C-s = ":w"
 
 
 [editor]
