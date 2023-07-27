@@ -1,8 +1,3 @@
-theme = "catppuccin_latte"
-[editor]
-true-color = true
-auto-format = true
-gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
 
 [editor.lsp]
 display-inlay-hints = true
@@ -13,3 +8,28 @@ C-c = "normal_mode"
 [keys.select]
 C-c = "normal_mode"
 "C-ret" = "toggle_comments"
+
+theme = "onedark"
+
+[editor]
+true-color = true
+cursorline = true
+bufferline = "multiple"
+gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
