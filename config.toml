@@ -1,4 +1,4 @@
-
+theme="ayumirage"
 [editor.lsp]
 display-inlay-hints = true
 display-messages = true
@@ -9,7 +9,7 @@ C-c = "normal_mode"
 C-c = "normal_mode"
 "C-ret" = "toggle_comments"
 
-theme = "onedark"
+
 
 [editor]
 true-color = true
