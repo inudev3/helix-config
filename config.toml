@@ -1,4 +1,4 @@
-theme="ayumirage"
+theme="ayu_mirage"
 [editor.lsp]
 display-inlay-hints = true
 display-messages = true
