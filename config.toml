@@ -2,7 +2,7 @@ theme="catppuccin_latte"
 [editor.lsp]
 display-inlay-hints = true
 display-messages = true
-
+auto-signature-help = false
 [keys.insert]
 C-c = "normal_mode"
 [keys.select]
