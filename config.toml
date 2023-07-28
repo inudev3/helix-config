@@ -1,4 +1,4 @@
-theme="ayu_dark"
+theme="catppuccin_latte"
 [editor.lsp]
 display-inlay-hints = true
 display-messages = true
@@ -7,7 +7,6 @@ display-messages = true
 C-c = "normal_mode"
 [keys.select]
 C-c = "normal_mode"
-"C-ret" = "toggle_comments"
 [keys.normal]
 C-s = ":w"
 
@@ -17,8 +16,7 @@ true-color = true
 cursorline = true
 bufferline = "multiple"
 gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
-
-
+auto-format = true
 
 [editor.cursor-shape]
 insert = "bar"

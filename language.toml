@@ -8,13 +8,11 @@ comment-token = "//"
 language-server = { command = "rust-analyzer" }
 indent = { tab-width = 4, unit = "    " }
 formatter = { command = "rustfmt" }
-auto-format = true
 
 [language.config]
 checkOnSave = {command = "clippy"} 
 cargo = {allFeatures = true}
 procMacro = {enable = true }
-auto-format = true
 
 [language.debugger]
 command = "codelldb"
