@@ -1,5 +1,6 @@
-theme="ayu_dark"
+theme="tokyonight"
 [editor.lsp]
+auto-signature-help = false
 display-inlay-hints = true
 display-messages = true
 
@@ -7,7 +8,6 @@ display-messages = true
 C-c = "normal_mode"
 [keys.select]
 C-c = "normal_mode"
-"C-ret" = "toggle_comments"
 [keys.normal]
 C-s = ":w"
 
@@ -30,7 +30,7 @@ left = ["mode", "spinner"]
 center = ["file-name"]
 right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
 separator = "│"
-mode.normal = "NORMAL"
+# mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
 
